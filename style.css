@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+        background-image:url(pic1.jfif);
+        background-size:100% 700px;
+        background-repeat:no-repeat;
+      }
+  
+h1{
+    text-align:center;
+    padding:20px;
+    color:red;
+    font-size:47px;
+   }
+   
+h2{
+    text-align:center;
+    padding:20px;
+   }
+.survey{
+   background:#48D1CC;
+    width:580px;
+    margin:0px,0px,0px,0px;
+    color:black;
+    font-size:20px;
+    padding:20px;
+    border-radius:10px;
+    }
+   .row-tab{
+      display:block;
+      padding-top:20px;
+       }
+    .label-name{
+       display:inline-block;
+        width:40%;
+        text-align:right;
+        }
+     .input-name{
+        display:inline-block;
+        text-align:left;
+        width:48%;
+       }
+     .select-input{
+      display:inline-block;
+        text-align:left;
+        width:48%;
+        }
+      .label-select{
+       display:inline-block;
+        width:40%;
+        text-align:right;
+        }
+     .label-radio{
+       display:inline-block;
+        width:40%;
+        text-align:right;
+        vertical-align:top;
+        }
+     .input-radio{
+        display:inline-block;
+        text-align:left;
+        width:48%;
+       }
+      .label-checkbox{
+       display:inline-block;
+        width:40%;
+        text-align:right;
+        vertical-align:top;
+        }
+      .input-checkbox{
+        display:inline-block;
+        text-align:left;
+        width:48%;
+       }
+     
+          
+
+
+
+      #submit{
+      width:200px;
+      padding:7px;
+      font-size:16px;
+      font-family:sans-serif;
+      font-style:bold;
+      font-weight:600;
+      border:none;
+      border-radius:3px;
+      outline:0;
+    }
+
+
+        
+ 
+
+
+
+
+         
+           
+

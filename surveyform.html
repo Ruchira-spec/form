@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>   <title>Survey Form</title>
+                <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<center><body>
+      <h1>Survey form</h1>
+      <div class="survey">
+      <form method="post" id="survey" action="">
+      <h2>Fill up here</h2>
+
+     <div class="row-tab">
+        <div class="label-name">
+            <label>First name:</label>
+         </div>
+        <div class="input-name">
+            <input type="text" name="fname" id="name" placeholder="Enter your First name">
+         </div>
+     </div>
+      <div class="row-tab">
+        <div class="label-name">
+            <label>Last name:</label>
+         </div>
+        <div class="input-name">
+            <input type="text" name="lname" id="name" placeholder="Enter your Last name">
+         </div>
+     </div>
+     <div class="row-tab">
+        <div class="label-name">
+            <label>Age:</label>
+         </div>
+        <div class="input-name">
+            <input type="number" name="anum" id="num" placeholder="Enter your age">
+         </div>
+     </div>
+     <div class="row-tab">
+        <div class="label-name">
+            <label>E-mail:</label>
+         </div>
+        <div class="input-name">
+            <input type="email" name="email" id="name" placeholder="Enter your active emailaccount">
+         </div>
+     </div>
+     <div class="row-tab">
+        <div class="label-select">
+          <label> Which option best describes your current role?:</label>
+        </div>
+        <div class="select-input">
+           <select>
+               <option>Select option</option>
+              <option>Student</option>
+              <option>Teacher</option>
+              <option>Doctor</option>
+              <option>Engineer</option>
+              <option>Businessman</option>
+              <option>Research Scholar</option>
+              <option>Counsellor</option>
+              <option>Botanist/Zoologist</option>
+              <option>My option is not here</option></select>
+         </div>
+     </div>
+     <div class="row-tab">
+        <div class="label-radio">
+         <label>Do you like to plant trees?:</label>
+         </div>
+        <div class="input-radio">
+           <div> <input type="radio" name="tree"
+            <label>Yes
+            </label>
+            </div>
+           <div><input type="radio" name="tree">
+           <label> No </label>
+            </div>
+           <div> <input type="radio" name="tree">
+            <label>Sometimes
+            </label>
+            </div>
+         </div>
+      </div>
+    <div class="row-tab">
+        <div class="label-checkbox">
+           <label> What mainly cause/causes tree mortality?:</label>
+         </div>
+        <div class="input-checkbox">
+           <div><input type="checkbox" id="Deforestation" name="cause" value="Deforestation">
+                 <label>Deforestation</label>
+           </div>
+           <div><input type="checkbox" id="Overexploitation" name="cause" value="Overexploitation">
+                 <label>Overexploitation</label>
+           </div>
+           <div><input type="checkbox" id="climate" name="cause" value="climate">
+                 <label>Climate Warming</label>
+           </div>
+           <div><input type="checkbox" id="Human" name="cause" value="Human">
+                 <label>Human Behaviour</label>
+           </div>
+            <div><input type="checkbox" id="no" name="cause" value="no">
+                 <label>Not among these</label>
+           </div>
+         </div>
+     </div><br>
+     
+     
+               <input type="Submit" value="Submit" id="submit">
+     
+      </form>
+</div>
+</body>
+</html>
+
